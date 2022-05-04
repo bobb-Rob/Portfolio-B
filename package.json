@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-b",
+  "version": "1.0.0",
+  "description": "Portfolio\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DRobertson's portfolio project using only html and bootstrap css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobb-Rob/Portfolio-B.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "portfolio"
+  ],
+  "author": "Robertson Arthur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobb-Rob/Portfolio-B/issues"
+  },
+  "homepage": "https://github.com/bobb-Rob/Portfolio-B#readme"
+}
