@@ -11122,8 +11122,23 @@ textarea.form-control-lg {
   padding-top: 190px;
   padding-bottom: 120px;
 }
+@media (min-width: 768px) {
+  .introduction {
+    background-image: url(../../illustrations/Illustration-headerdesktop.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+  }
+}
+@media (max-width: 767.98px) {
+  .introduction {
+    background-image: url(../../illustrations/Illustrationillustration.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 120%;
+  }
+}
 .introduction .display-1 {
   font-weight: 600 !important;
+  font-family: "Crete Round", serif;
 }
 .introduction .display-1--intro {
   color: #fff5e1;
