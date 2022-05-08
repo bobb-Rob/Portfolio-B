@@ -11118,5 +11118,15 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.introduction {
+  padding-top: 190px;
+  padding-bottom: 120px;
+}
+.introduction .display-1 {
+  font-weight: 600 !important;
+}
+.introduction .display-1--intro {
+  color: #fff5e1;
+}
 
 /*# sourceMappingURL=style.css.map */

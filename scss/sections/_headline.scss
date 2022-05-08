@@ -1,0 +1,15 @@
+@use '../custom'as*;
+
+
+.introduction {
+    padding-top: 190px;
+    padding-bottom: 120px;
+
+    .display-1 {
+        font-weight: 600 !important;
+
+        &--intro {
+            color: $off-white;
+        }
+    }
+}
