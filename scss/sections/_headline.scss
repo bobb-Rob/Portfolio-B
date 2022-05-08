@@ -1,0 +1,25 @@
+@use '../custom'as*;
+@use '../components/typography'as*;
+
+
+.introduction {
+    padding-top: 190px;
+    padding-bottom: 120px;    
+    @include media-breakpoint-up(md) {
+        background-image: url(../../illustrations/Illustration-headerdesktop.png);
+        background-repeat: no-repeat;
+        background-position: 100% 0%;
+    }
+    @include media-breakpoint-down(md) {
+        background-image: url(../../illustrations/Illustrationillustration.svg);
+        background-repeat: no-repeat;
+        background-position: 100% 120%;
+    }
+    .display-1 {
+        font-weight: 600 !important;
+        font-family: $crete-font-family;
+        &--intro {
+            color: $off-white;
+        }
+    }
+}
